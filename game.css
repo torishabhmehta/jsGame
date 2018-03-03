@@ -1,0 +1,25 @@
+body
+{background-color: pink;}
+
+#canvas
+{background-color: cyan;
+border-color: red;
+align-self: center;
+border-width: 10;}
+
+div
+{display: flex;
+justify-content: center;}
+
+p
+{text-align: center;
+justify-content: center;}
+
+h1
+{text-align: center;}
+
+#greetStart
+{display: none;}
+
+.divi
+{display: none;}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My game</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="myCanvas"></div>
+	<p id="greetings"></p>
+	<h1 class="selGame">Select the game you want to play:-</h1>
+	<p class="selGame">
+		<button id="rect">Reaction</button>
+		<button id="fotb">Football</button>
+		<button id="shtout">Shootout</button>
+	</p>
+	<p id="greetStart">Welcome to the game! Lets play it...
+		<button id="start">START</button>
+	</p>
+	
+		<p class="divi">Select difficulty</p>
+		<div class="divi">
+		<p>
+		<form name="form">
+			<select name="level">
+				<option value=1.5>Easy</option>
+				<option value=2>Normal</option>
+				<option value=4>Hard</option>					
+				<option value=8>Insane</option>
+			</select>
+		</form>
+	</p>
+	</div>
+
+	<h1 class="divi">Rules:</h1>	
+	<p id="score"></p>
+	<p id="timer"></p>
+	<script type="text/javascript" src="game2.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="game1.js"></script>
+</body>
+</html>
